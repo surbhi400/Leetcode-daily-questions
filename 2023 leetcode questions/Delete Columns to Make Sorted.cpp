@@ -30,7 +30,7 @@ public:
             for(int i=0; i<row-1; i++){
                 if(strs[i][j]>strs[i+1][j]){// will check the lexographical order
                     count++;
-                    break;
+                    break; 
                 }
             }
         }
