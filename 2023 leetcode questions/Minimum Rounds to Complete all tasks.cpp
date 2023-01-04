@@ -22,7 +22,7 @@ Now if the frequency is not completely divisible by 3, then the possible remaind
 If remainder is 1, i.e, lets take 7 frequency, then 🔮🔮🔮🔮🔮🔮🔮 the groups are something like this "🔮🔮🔮" "🔮🔮🔮" "🔮", i.e, one 🔮 is left alone so the
 solution is to break the second last group into two parts of 2 and 1 so that it becomes like: "🔮🔮🔮" "🔮🔮" "🔮🔮", i.e, one is added to the division by 3.
 If remainder is 2, i.e, lets take 8 frequency, then 🔮🔮🔮🔮🔮🔮🔮🔮 the groups are something like this "🔮🔮🔮" "🔮🔮🔮" "🔮🔮", i.e, two 🔮 are left so the
-solution is to just add 1,i.e, one group of two to the solution. /*
+solution is to just add 1,i.e, one group of two to the solution. */
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   class Solution {
 public:
