@@ -14,9 +14,9 @@ Explanation: To complete all the tasks, a possible plan is:
 - In the second round, you complete 2 tasks of difficulty level 3. 
 - In the third round, you complete 3 tasks of difficulty level 4. 
 - In the fourth round, you complete 2 tasks of difficulty level 4.  
-It can be shown that all the tasks cannot be completed in fewer than 4 rounds, so the answer is 4. */
+It can be shown that all the tasks cannot be completed in fewer than 4 rounds, so the answer is 4.
 
-/*  If the frequency is 1, the task cannot be performed so we return -1.
+ If the frequency is 1, the task cannot be performed so we return -1.
 If the frequency is 3, the task can be performed and we return frequency/3.
 Now if the frequency is not completely divisible by 3, then the possible remainders are 1 and 2. Lets check them out:
 If remainder is 1, i.e, lets take 7 frequency, then 🔮🔮🔮🔮🔮🔮🔮 the groups are something like this "🔮🔮🔮" "🔮🔮🔮" "🔮", i.e, one 🔮 is left alone so the
